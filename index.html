@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fontawesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Flexbox Sample Project</title>
+  </head>
+  <body>
+    <input type="checkbox" id="toggle" />
+
+    <nav>
+      <div class="container">
+        <a class="logo" href="#">Flexbox</a>
+
+        <label class="navbar-toggler" for="toggle">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </label>
+
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <header class="header">
+      <div class="container">
+        <div>
+          <h1>Flexbox Sample</h1>
+          <p>
+            Flexbox is a one-dimensional layout system that we can use to create
+            a row or a column axis layout. It makes our life easier to design
+            and build responsive web pages without having to use tricky hacks
+            and a lot of float and position properties in our CSS code.
+          </p>
+        </div>
+        <img src="grid.svg" />
+      </div>
+    </header>
+
+    <section class="boxes">
+      <div class="container">
+        <div class="box">
+          <h2><i class="fas fa-arrows-alt-v"></i> Alignment & Space</h2>
+          <p>
+            A more efficient way to layout, align, and distribute space among
+            items in a container.
+          </p>
+        </div>
+
+        <div class="box">
+          <h2><i class="fas fa-arrows-alt"></i>Tricky Positioning</h2>
+          <p>
+            Flexbox usually solves tricky problems including how to position or
+            dynamically resize elements on a page
+          </p>
+        </div>
+
+        <div class="box">
+          <h2><i class="fas fa-mobile"></i>Responsive Design</h2>
+          <p>
+            Flexbox makes building a website layout (and making it responsive!).
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
